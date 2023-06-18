@@ -77,11 +77,12 @@ export default function Home() {
                   <option value="Bug">Bug</option>
                 </select>
               </div>
+
               <div className={styles.input3}>
                 <text>Feedback Detail</text>
                 <p>
                   Include any specific comments on what should be improved,
-                  added, etc.
+                  added, etc..
                 </p>
                 <textarea
                   style={{
