@@ -97,7 +97,7 @@ export default function Home() {
                   }}
                   value={payload?.details}
                 />
-                {error ? <span>Can't be empty</span> : null}
+                {error ? <p>Can't be empty</p> : null}
               </div>
               <div className={styles.btns}>
                 <button onClick={() => router.back()} className={styles.btn1}>
